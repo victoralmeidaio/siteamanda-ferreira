@@ -39,8 +39,8 @@ const CardsComponent = () => {
                 >
                     
                         <div style={{
-                            position: 'absolute', right: '1px', top: '1px', padding: '4px',
-                            backgroundColor: '#fff', borderRadius: '0 5px'
+                            position: 'absolute', right: '0px', top: '0px', padding: '4px',
+                            backgroundColor: '#fff', borderRadius: ' 0 20px'
                         }} >{card.icon}</div>
                         <a
                             href={card.link}
