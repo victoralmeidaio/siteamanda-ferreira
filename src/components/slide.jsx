@@ -5,7 +5,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import browlamination from '../assets/images/brow-Lamination.jpg';
 import fioaFioRealista from '../assets/images/Micropigmentacao-Fio-a-Fio-Realista.jpg';
 import ombreShadow from '../assets/images/Micropigmentacao-shadow.jpg';
-import designTintura from '../assets/images/design-com-tintura-2.jpg';
+import designTintura from '../assets/images/designcomtintura.jpg';
 import designHenna from '../assets/images/Design-de-Sobrancelhas-com-Henna.jpg';
 import designPersonalizado from '../assets/images/Design-de-Sobrancelhas-Personalizado.jpg';
 import epilacaoBuco from '../assets/images/Epilacao-de-Buco-scaled.jpg';
