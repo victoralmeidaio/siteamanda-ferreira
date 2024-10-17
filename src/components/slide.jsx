@@ -1,4 +1,7 @@
 import { useState, useRef } from 'react';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+
+
 import browlamination from '../assets/images/brow-Lamination.jpg';
 import fioaFioRealista from '../assets/images/Micropigmentacao-Fio-a-Fio-Realista.jpg';
 import ombreShadow from '../assets/images/Micropigmentacao-shadow.jpg';
@@ -142,15 +145,15 @@ const SlideComponent = () => {
             }}>
                 <button
                     onClick={handlePrevClick}
-                    style={{ background: '#1d1d1d', color: 'white', border: '1px solid #c3c3c3', padding: '10px', cursor: 'pointer', borderRadius: '50%' }}
+                    style={{ display: 'flex', alignContent: 'center', justifyItems: 'center', justifyContent: 'center', background: '#1d1d1d', color: 'white', border: '1px solid #c3c3c3', padding: '10px', cursor: 'pointer', borderRadius: '50%' }}
                 >
-                    ←
+                    <FaArrowLeft />
                 </button>
                 <button
                     onClick={handleNextClick}
-                    style={{ background: '#1d1d1d', color: 'white', border: '1px solid #c3c3c3', padding: '10px', cursor: 'pointer', borderRadius: '50%' }}
+                    style={{ display: 'flex', alignContent: 'center', justifyItems: 'center', justifyContent: 'center', background: '#1d1d1d', color: 'white', border: '1px solid #c3c3c3', padding: '10px', cursor: 'pointer', borderRadius: '50%' }}
                 >
-                    →
+                    <FaArrowRight />
                 </button>
             </div>
         </div>
