@@ -47,7 +47,7 @@ const CardsComponent = () => {
                             style={{
                                 color: 'white',
                                 textDecoration: 'none',
-                                fontSize: '1.5rem',
+                                fontSize: '1.7rem',
                                 fontWeight: '300',
                                 textAlign: 'center',
                                 width: '100%',
