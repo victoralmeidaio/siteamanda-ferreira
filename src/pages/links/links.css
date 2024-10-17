@@ -1,0 +1,45 @@
+.container-links {
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+    background-color: var(--cinza-escuro);
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    position: relative;
+    background-image: url(../../assets/images/imagemcursodesigndesobrancelhas.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container-img-logo {
+    background-color: #02020213;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.23);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 100%;
+
+}
+
+.container-img-logo img {
+    width: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
