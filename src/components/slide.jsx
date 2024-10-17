@@ -142,13 +142,13 @@ const SlideComponent = () => {
             }}>
                 <button
                     onClick={handlePrevClick}
-                    style={{ background: 'rgba(0, 0, 0, 0.5)', color: 'white', border: 'none', padding: '10px', cursor: 'pointer', borderRadius: '50%' }}
+                    style={{ background: '#1d1d1d', color: 'white', border: '1px solid #c3c3c3', padding: '10px', cursor: 'pointer', borderRadius: '50%' }}
                 >
                     ←
                 </button>
                 <button
                     onClick={handleNextClick}
-                    style={{ background: 'rgba(0, 0, 0, 0.5)', color: 'white', border: 'none', padding: '10px', cursor: 'pointer', borderRadius: '50%' }}
+                    style={{ background: '#1d1d1d', color: 'white', border: '1px solid #c3c3c3', padding: '10px', cursor: 'pointer', borderRadius: '50%' }}
                 >
                     →
                 </button>

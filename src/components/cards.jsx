@@ -34,6 +34,7 @@ const CardsComponent = () => {
                         color: 'white',
                         position: 'relative',
                         padding: '0px',
+                        border: '1px solid var(--cinza)',
                     }}
                 >
                     
