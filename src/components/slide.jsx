@@ -2,13 +2,13 @@ import { useState, useRef } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 
-import browlamination from '../assets/images/brow-Lamination.jpg';
-import fioaFioRealista from '../assets/images/Micropigmentacao-Fio-a-Fio-Realista.jpg';
-import ombreShadow from '../assets/images/Micropigmentacao-shadow.jpg';
-import designTintura from '../assets/images/designcomtintura.jpg';
-import designHenna from '../assets/images/Design-de-Sobrancelhas-com-Henna.jpg';
-import designPersonalizado from '../assets/images/Design-de-Sobrancelhas-Personalizado.jpg';
-import epilacaoBuco from '../assets/images/Epilacao-de-Buco-scaled.jpg';
+import browlamination from '../assets/images/brow-Lamination.jpg?format=webp';
+import fioaFioRealista from '../assets/images/Micropigmentacao-Fio-a-Fio-Realista.jpg?format=webp';
+import ombreShadow from '../assets/images/Micropigmentacao-shadow.jpg?format=webp';
+import designTintura from '../assets/images/designcomtintura.jpg?format=webp';
+import designHenna from '../assets/images/Design-de-Sobrancelhas-com-Henna.jpg?format=webp';
+import designPersonalizado from '../assets/images/Design-de-Sobrancelhas-Personalizado.jpg?format=webp';
+import epilacaoBuco from '../assets/images/Epilacao-de-Buco-scaled.jpg?format=webp';
 
 const slidesData = [
     { id: 1, title: 'Brow Lamination', link: 'https://api.whatsapp.com/send?phone=5511977502407&text=Gostaria%20de%20agendar%20um%20horário%20para%20o%20procedimento%20de%20Brow%20Lamination.', image: browlamination },

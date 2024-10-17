@@ -6,7 +6,7 @@ import CardsComponent from '../../components/cards';
 import MapComponent from '../../components/MapComponent';
 import SocialMediaLinks from '../../components/redes-sociais';
 import PopupComponent from '../../components/popup';
-import logoamandabranco from '../../assets/images/amandalogobranco.png';
+import logoamandabranco from '../../assets/images/amandalogobranco.png?format=webp';
 
 const Links = () => {
     return (

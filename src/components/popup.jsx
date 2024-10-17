@@ -33,7 +33,7 @@ const PopupComponent = () => {
     };
 
     const handleClick = () => {
-        window.open('https://www.exemplo.com', '_blank', 'noopener,noreferrer');
+        window.open('https://chat.fillapp.me/?id=82ad5be0-f8b7-488d-847d-72a91c0756ed', '_blank', 'noopener,noreferrer');
     };
 
     return (
@@ -77,7 +77,7 @@ const PopupComponent = () => {
                             onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'var(--lilas)'}
                             onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'var(--lilas-claro)'}
                         >
-                            Quero Agendar agouuraa
+                            Quero Agendar agora
                         </button>
                         <img style={{ width: '60px', position: 'absolute', bottom: '10px', right: '10px' }} src={outubrorosa} alt="" />
                     </div>
