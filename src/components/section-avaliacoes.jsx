@@ -19,7 +19,7 @@ const SectionAvaliacoes = () => {
                     <FaStar size={30} color='#FBBD01' />
                 </div>
                 <h6 style={{ color: 'var(--branco-gelo)', fontSize: '3.6rem', fontWeight: '400', textAlign: 'center' }}>Excelente</h6>
-                <button className="btn-google"><a style={{ textDecoration: 'none', color: 'var(--cinza-escuro)' }} href="https://www.google.com/search?q=studio+amanda+ferreira&oq=studio+amanda+ferreira&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgoIARAAGIAEGKIEMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgoIBRAAGIAEGKIEMgYIBhBFGDwyBggHEEUYPDIGCAgQRRg80gEINzA3MGowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" target="_blank" rel="noopener noreferrer"  >Conferir Instagram</a></button>
+                <button className="btn-google"><a style={{ textDecoration: 'none', color: 'var(--cinza-escuro)' }} href="https://www.google.com/search?q=studio+amanda+ferreira&oq=studio+amanda+ferreira&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgoIARAAGIAEGKIEMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgoIBRAAGIAEGKIEMgYIBhBFGDwyBggHEEUYPDIGCAgQRRg80gEINzA3MGowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" target="_blank" rel="noopener noreferrer"  >Conferir Avaliações</a></button>
             </div>
 
         </section>

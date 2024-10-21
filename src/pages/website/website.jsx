@@ -24,13 +24,13 @@ const Website = () => {
                     <h1 style={{ color: 'var(--branco-gelo)', fontSize: '5.4rem', fontWeight: '500' }}>Transforme Seu Olhar com Sobrancelhas Realistas e Naturais</h1>
                     <h2 style={{ color: 'var(--branco-gelo)', fontSize: '2.3rem', fontWeight: '300' }} >Beleza, Precisão e Sofisticação em Cada Detalhe</h2>
                     <div style={{ paddingTop: '10px', columnGap: '20px', display: 'flex' }} className="btns-calltoAction">
-                        <button className="btn-calltoAction"><a href="#">Agendar online </a></button>
-                        <button className="btn-calltoAction"><a href="#">Agendar pelo Whatsapp</a></button>
+                        <button className="btn-calltoAction"><a href="https://chat.fillapp.me/?id=82ad5be0-f8b7-488d-847d-72a91c0756ed" target='_blank' rel='noopener noreferrer'>Agendar online </a></button>
+                        <button className="btn-calltoAction"><a href="https://wa.me/5511977502407?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target='_blank' rel='nooperner noreferrer'>Agendar pelo Whatsapp</a></button>
                     </div>
                 </div>
                 <img style={{ width: '35%' }} src={bannerAmanda} alt="Amanda Ferreira" />
             </anside>
-            <section style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center,', alignItems: 'center', marginBottom: '0px' }} className='section-studio'>
+            <section style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center,', alignItems: 'center', }} className='section-studio'>
                 <h1 style={{ color: 'var(--branco-gelo)', fontSize: '3.6rem', fontWeight: '400', textAlign: 'center' }}>Conheça nosso studio</h1>
                 <div style={{ display: 'flex', justifyContent: 'space-around', backgroundColor: 'var(--graffiti)', borderRadius: '10px', padding: '1rem', marginTop: '4rem' }} className="container-nosso-studio">
                     <div style={{
@@ -40,8 +40,7 @@ const Website = () => {
                         <h5 style={{ color: 'var(--branco-gelo)', fontSize: '3.6rem', fontWeight: '300', textAlign: 'center' }}>Um Espaço Criado para Valorizar<br /> Seu Estilo e Sua Beleza</h5>
                         <p style={{ color: 'var(--branco-gelo)', fontSize: '1.8rem', fontWeight: '300' }} >Conheça nosso espaço e nossos procedimentos</p>
                         <div style={{ paddingTop: '15px', columnGap: '20px', display: 'flex', }} className="btns-calltoAction">
-                            <button className="btn-calltoAction"><a href="#">Agendar online </a></button>
-                            <button className="btn-calltoAction"><a href="#">Agendar pelo Whatsapp</a></button>
+                            <button className="btn-calltoAction"><a href="https://wa.me/5511977502407?send" target='_blank' rel='nooperner noreferrer'>Quero tirar Dúvidas</a></button>
                         </div>
 
                     </div>
@@ -92,7 +91,7 @@ const Website = () => {
                         <h5 style={{ color: 'var(--branco-gelo)', fontSize: '3.6rem', fontWeight: '300', textAlign: 'center' }}>Siga-nos no Instagram e Descubra Benefícios<br /> Exclusivos para Você</h5>
                         <p style={{ color: 'var(--branco-gelo)', fontSize: '1.8rem', fontWeight: '300' }} >Conheça nosso espaço e nossos procedimentos</p>
                         <div style={{ paddingTop: '15px', columnGap: '20px', display: 'flex', }} className="btns-calltoAction">
-                            <button style={{ fontSize: '17px' }} className="btn-instagram"><a style={{ fontSize: '17px' }} href="#">Conferir Instagram</a></button>
+                            <button style={{ fontSize: '17px' }} className="btn-instagram"><a style={{ fontSize: '17px' }} href="https://www.instagram.com/_amandafdesigner/" target='_blank' rel='noopener noreferrer'>Conferir Instagram</a></button>
                         </div>
                     </div>
                 </div>
@@ -127,7 +126,7 @@ const Website = () => {
                             <FaMapMarkerAlt size={35} />
                             <div className="conteudo-location">
                                 <h6 style={{ fontSize: '20px', fontWeight: 'bold' }}>Endereço</h6>
-                                <p>Rua Benedito Edigio Barbosa número 41A <br/> Sala 03 - 2° andar - Vila teresinha - Brasilandia - CEP 02846200</p>
+                                <p>Rua Benedito Edigio Barbosa número 41A <br /> Sala 03 - 2° andar - Vila teresinha - Brasilandia - CEP 02846200</p>
                             </div>
                         </div>
 
