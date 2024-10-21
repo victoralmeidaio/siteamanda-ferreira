@@ -136,7 +136,7 @@ const SlideCardsWeb = () => {
                             borderRadius: '10px',
                         }} className="card-slide">
                             <div style={{
-                                background: 'linear-gradient(to top, rgba(0, 0, 0, 0.9) 15%, transparent)',
+                                background: 'linear-gradient(to top, rgba(0, 0, 0, 0.9) 30%, transparent)',
                                 height: '100%',
                                 width: '100%',
                                 display: 'flex',
@@ -147,8 +147,8 @@ const SlideCardsWeb = () => {
 
                             }} className="content-card">
                                 <h1>{d.title}</h1>
-                                <p>{d.description}</p>
-                                <button style={{ marginTop: '10px', marginBottom: '10px', }}
+                                <p style={{padding:'0 2rem'}}>{d.description}</p>
+                                <button style={{ marginTop: '10px', marginBottom: '10px', margin:'1rem 2rem' }}
                                     className="btn-calltoAction" onClick={() => window.open(d.link, '_blank')}>agendar</button>
                             </div>
                         </div>
