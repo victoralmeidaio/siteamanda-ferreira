@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -10,14 +9,14 @@
 }
 
 #root {
-  --graffiti-escuro:#1D1D1DEB;
+  --graffiti-escuro: #1D1D1DEB;
   --graffiti: #242424;
-  --branco-gelo:#bdbdbd;
+  --branco-gelo: #bdbdbd;
   --lilas-claro: #E3077A;
   --lilas: #762F4A;
   --rosa: #FFC2CE;
   --cinza: #464646;
-  --cinza-escuro:#1d1d1d;
+  --cinza-escuro: #1d1d1d;
   --cinza-claro: #353434;
   background-color: var(--cinza-escuro);
 }
@@ -39,23 +38,34 @@ body {
   font-family: 'inter', sans-serif;
 
 }
+
 /*ESTILOS DO SLIDER CARROSSEL*/
-.slick-slide > div {
+.slick-slide>div {
   margin: 0 10px;
 }
+
 .content-card h1 {
   text-align: left;
   color: aliceblue;
   font-weight: 300;
 }
+
 .content-card p {
 
   color: aliceblue;
   font-weight: 200;
   font-size: 1.5rem;
 }
+
 a {
   display: block;
   width: 100%;
-  height: 100%;git 
+  height: 100%
+}
+
+h1 ,h5 {
+  background: linear-gradient(to bottom right, #D9AE80 0%, #F3EEE4 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #D9AE80 0%, #F3EEE4 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #D9AE80 0%, #F3EEE4 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #D9AE80 0%, #F3EEE4 50%) top right / 50% 50% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent!important; 
 }
