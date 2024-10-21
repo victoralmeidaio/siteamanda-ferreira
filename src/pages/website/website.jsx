@@ -24,7 +24,7 @@ const Website = () => {
                     <h1 style={{ color: 'var(--branco-gelo)', fontSize: '5.4rem', fontWeight: '500' }}>Transforme Seu Olhar com Sobrancelhas Realistas e Naturais</h1>
                     <h2 style={{ color: 'var(--branco-gelo)', fontSize: '2.3rem', fontWeight: '300' }} >Beleza, Precisão e Sofisticação em Cada Detalhe</h2>
                     <div style={{ paddingTop: '10px', columnGap: '20px', display: 'flex' }} className="btns-calltoAction">
-                        <button className="btn-calltoAction"><a href="https://chat.fillapp.me/?id=82ad5be0-f8b7-488d-847d-72a91c0756ed" target='_blank' rel='noopener noreferrer'>Agendar online </a></button>
+                        <button className="btn-calltoAction"><a href="https://chat.fillapp.me/?id=82ad5be0-f8b7-488d-847d-72a91c0756ed" target='_blank' >Agendar online </a></button>
                         <button className="btn-calltoAction"><a href="https://wa.me/5511977502407?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target='_blank' rel='nooperner noreferrer'>Agendar pelo Whatsapp</a></button>
                     </div>
                 </div>

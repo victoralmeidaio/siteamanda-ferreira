@@ -79,7 +79,7 @@ const PopupComponent = () => {
                         >
                             Quero Agendar agora
                         </button>
-                        <img style={{ width: '60px', position: 'absolute', bottom: '10px', right: '10px' }} src={outubrorosa} alt="" />
+                        <img style={{ width: '60px', position: 'absolute', bottom: '10px', right: '10px' }} src={outubrorosa} alt="outubro rosa" />
                     </div>
                 </div>
             )}
