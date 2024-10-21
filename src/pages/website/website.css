@@ -1,0 +1,461 @@
+.btn-calltoAction {
+    position: relative;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6em;
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+}
+
+.btn-calltoAction:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-calltoAction:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-calltoAction::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+}
+
+.btn-calltoAction::after {
+    background-color: #fff;
+}
+
+.btn-calltoAction:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-calltoAction a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.btn-instagram {
+    position: relative;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6em;
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-image: linear-gradient(240deg, #FF93F4 0%, #FFB055 100%);
+    box-shadow: 0 0 5px #FF93F4, 0 0 10px #FFB055, 0 0 15px #FF93F4;
+    animation: neonPulse 1.5s infinite alternate;
+}
+
+.btn-instagram:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 8px #FF93F4, 0 0 12px #FFB055, 0 0 18px #FF93F4;
+}
+
+.btn-instagram:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0 5px #FF93F4, 0 0 10px #FFB055, 0 0 15px #FF93F4;
+}
+
+.btn-instagram::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+    background-color: #fff;
+}
+
+.btn-instagram:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-instagram a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+@keyframes neonPulse {
+    from {
+        box-shadow: 0 0 5px #FF93F4, 0 0 10px #FFB055, 0 0 15px #FF93F4;
+    }
+
+    to {
+        box-shadow: 0 0 10px #FF93F4, 0 0 15px #FFB055, 0 0 20px #FF93F4;
+    }
+}
+
+
+/* Botão de Avaliações com gradiente seguindo a paleta de cores do Google */
+.btn-google {
+    position: relative;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6em;
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: white;
+    background-image: linear-gradient(240deg, #00BFFF 0%, #ffd900 100%);
+    /* Azul Neon e Laranja Neon */
+    box-shadow: 0 0 4px #00BFFF, 0 0 8px #ffd900, 0 0 12px #00BFFF, 0 0 8px #ffd900;
+    /* Sombras Neon reduzidas */
+    animation: neonPulseGoogle 1.5s infinite alternate;
+    /* Animação de "pulsar" */
+}
+
+.btn-google:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 6px #00BFFF, 0 0 10px #ffd900, 0 0 12px #00BFFF, 0 0 8px #ffd900;
+    /* Sombras no hover */
+}
+
+.btn-google:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0 4px #00BFFF, 0 0 8px #ffd900, 0 0 10px #00BFFF, 0 0 8px #ffd900;
+    /* Sombras no estado ativo */
+}
+
+.btn-google::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+    background-color: #fff;
+}
+
+.btn-google:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+@keyframes neonPulseGoogle {
+    from {
+        box-shadow: 0 0 4px #00BFFF, 0 0 8px #ffd900, 0 0 12px #00BFFF, 0 0 8px #ffd900;
+        /* Sombras reduzidas no keyframe inicial */
+    }
+
+    to {
+        box-shadow: 0 0 8px #00BFFF, 0 0 12px #ffd900, 0 0 16px #00BFFF, 0 0 12px #ffd900;
+        /* Sombras reduzidas no keyframe final */
+    }
+}
+
+
+@media (max-width: 430px) {
+
+    h5 {
+        font-size: 2rem !important;
+    }
+
+
+    anside {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    anside img {
+        width: 100% !important;
+    }
+
+    anside h1 {
+        font-size: 3.2rem !important ;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        text-align: center;
+        margin-top: -18rem;
+    }
+
+    anside h2 {
+        font-size: 2rem !important;
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .btns-calltoAction {
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        gap: 1rem;
+    }
+
+    .section-studio {
+        margin-top: 5rem;
+    }
+    .section-studio h1{
+        font-size: 2.8rem !important;
+    }
+
+    .container-nosso-studio {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem 0rem !important;
+    }
+
+    .container-nosso-studio img {
+        width: 80% !important;
+        align-self: center;
+    }
+
+    .container-nosso-studio p {
+        text-align: center;
+    }
+
+    .content-nosso-studio {
+        padding: 1rem 0rem !important;
+        margin-top: -4rem;
+
+    }
+
+    .cards-cursos {
+        width: 90% !important;
+        justify-content: center;
+    }
+
+    .container-nosso-instagram {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-nosso-instagram img {
+        width: 60% !important;
+        align-self: center;
+    }
+
+    .container-nosso-instagram p {
+        text-align: center;
+    }
+
+    .content-nosso-instagram {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+        margin-top: -5rem;
+    }
+    .avaliacoes h1{
+        font-size: 2.8rem !important;
+        text-align: center;
+        padding-left:2rem;
+        padding-right: 2rem;
+    }
+
+    .container-localization {
+        display: flex;
+        flex-direction: column;
+    }
+    .localizacao h1{
+        font-size: 2.8rem !important;
+        text-align: center;
+        padding-left:2rem;
+        padding-right: 2rem;
+
+    }
+
+    .content-cards {
+        width: 100%;
+        padding: 0 !important;
+    }
+.container-cards-location p{
+font-size: 1.4rem;
+
+}
+.container-cards-location h6{
+    font-size: 1.6rem!important;
+    
+    }
+    .container-cards-location {
+        width: 100% !important;
+    }
+  
+}
+
+
+@media (max-width: 884px) {
+
+    h5 {
+        font-size: 2.4rem !important;
+    }
+
+
+    anside {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    anside img {
+        min-width:80%;
+        align-self: center;
+    }
+
+    anside h1 {
+        font-size: 3.6rem ;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+        margin-top: -18rem;
+    }
+
+    anside h2 {
+        font-size: 2rem !important;
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .btns-calltoAction {
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        gap: 1rem;
+    }
+
+    .section-studio {
+        margin-top: 5rem;
+    }
+
+    .container-nosso-studio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container-nosso-studio img {
+        min-width: 50%;
+        align-self: center;
+    }
+
+    .container-nosso-studio p {
+        text-align: center;
+    }
+
+    .content-nosso-studio {
+        padding: 4rem 0 !important;
+        margin-top: -4rem;
+        width: 90%;
+        align-self: center;
+    }
+    .section-procedimentos h1{  
+        font-size: 2.8rem !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+    }
+    .cursos-treinamentos h1{
+        font-size: 2.8rem !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .cards-cursos {
+        width: 90% !important;
+        justify-content: center;
+    }
+    .acompanhe-instagram h1{
+        font-size: 2.8rem !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .container-nosso-instagram {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-nosso-instagram img {
+        min-width: 35% !important;
+        align-self: center;
+    }
+
+    .container-nosso-instagram p {
+        text-align: center;
+    }
+
+    .content-nosso-instagram {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 3rem 1rem !important;
+        margin-top: -5rem;
+        width: 90%;
+        align-self: center;
+    }
+
+    .container-localization {
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 2rem!important;
+
+    }
+
+    .content-cards {
+        width: 100%;
+        padding: 0 !important;
+    }
+
+    .container-cards-location {
+        width: 80% ;
+        align-self: center;
+    }
+
+}
+
+@media(max-width: 1280px) {
+
+    anside{
+        max-width: 90%;
+        align-self: center;
+    }
+    .container-nosso-studio{
+        width: 90%;
+        align-self: center;
+    }
+   
+}

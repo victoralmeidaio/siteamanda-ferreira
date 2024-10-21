@@ -10,6 +10,9 @@
 }
 
 #root {
+  --graffiti-escuro:#1D1D1DEB;
+  --graffiti: #242424;
+  --branco-gelo:#bdbdbd;
   --lilas-claro: #E3077A;
   --lilas: #762F4A;
   --rosa: #FFC2CE;
@@ -35,4 +38,19 @@ body {
   overflow-x: hidden;
   font-family: 'inter', sans-serif;
 
+}
+/*ESTILOS DO SLIDER CARROSSEL*/
+.slick-slide > div {
+  margin: 0 10px;
+}
+.content-card h1 {
+  text-align: left;
+  color: aliceblue;
+  font-weight: 300;
+}
+.content-card p {
+
+  color: aliceblue;
+  font-weight: 200;
+  font-size: 1.5rem;
 }
