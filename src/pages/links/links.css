@@ -9,7 +9,7 @@
     align-items: center;
     color: azure;
     position: relative;
-    background-image: url(../../assets/images/imagemcursodesigndesobrancelhas.png);
+  /*  background-image: url(../../assets/images/imagemcursodesigndesobrancelhas.png);*/
     background-size: contain;
     background-repeat: no-repeat;
 }
