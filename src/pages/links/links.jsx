@@ -5,7 +5,6 @@ import SlideComponent from '../../components/slide';
 import CardsComponent from '../../components/cards';
 import MapComponent from '../../components/MapComponent';
 import SocialMediaLinks from '../../components/redes-sociais';
-import PopupComponent from '../../components/popup';
 import logoamandabranco from '../../assets/images/amandalogobranco.png?format=webp';
 import SectionAvaliacoes from '../../components/section-avaliacoes';
 import SlideDepoimentos from '../../components/slideDepoimentos';
@@ -47,7 +46,6 @@ const Links = () => {
             <MapComponent />
             <SectionAvaliacoes />
             <SlideDepoimentos />
-            <PopupComponent />
             <FooterComponent />
 
         </div>

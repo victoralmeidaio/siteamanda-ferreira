@@ -16,7 +16,7 @@ const SocialMediaLinks = () => {
             </a>
 
             {/* Agendamento */}
-            <a href="https://chat.fillapp.me/?id=82ad5be0-f8b7-488d-847d-72a91c0756ed" target="_blank" rel="noopener noreferrer">
+            <a href="https://online.maapp.com.br/AmandaferreiraStudio" target="_blank" rel="noopener noreferrer">
                 <MdEventAvailable size={40} style={{ color: '#ccc', padding: '5px', backgroundColor: 'var(--cinza-escuro)', borderRadius: '100%' }} />
             </a>
 
@@ -26,7 +26,7 @@ const SocialMediaLinks = () => {
             </a>
             */}
              {/* Site (Globo Terrestre) */}
-             <a href="https://amandaferreirastudio.com.br/" target="_blank" rel="noopener noreferrer">
+             <a href="https://amanda-ferreira-site.web.app/website" target="_blank" rel="noopener noreferrer">
                 <FaGlobe size={40} style={{ color: '#ccc', padding: '5px', backgroundColor: 'var(--cinza-escuro)', borderRadius: '100%' }} />
             </a>
         </div>

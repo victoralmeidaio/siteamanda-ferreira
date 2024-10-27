@@ -12,10 +12,10 @@ const PopupComponent = () => {
     
 
     useEffect(() => {
-        // Exibe o pop-up após 3 segundos (3000 ms)
+        // Exibe o pop-up após 4 segundos (3000 ms)
         const timer = setTimeout(() => {
             setShowPopup(true);
-        }, 3000);
+        }, 4000);
 
         // Limpa o timer ao desmontar o componente
         return () => clearTimeout(timer);
@@ -33,7 +33,7 @@ const PopupComponent = () => {
     };
 
     const handleClick = () => {
-        window.open('https://chat.fillapp.me/?id=82ad5be0-f8b7-488d-847d-72a91c0756ed', '_blank', 'noopener,noreferrer');
+        window.open('https://wa.me/5511977502407?text=Olá%20gostaria%20de%20agendar%20um%20horário', '_blank', 'noopener,noreferrer');
     };
 
     return (
@@ -110,7 +110,7 @@ const popupContentStyle = {
     textAlign: 'center',
     maxWidth: '400px',
     width: '90%',
-    height: '80%',
+    height: '90%',
     boxShadow: '0px 4px 16px rgba(0, 0, 0, 0.2)',
     position: 'relative',
     display: 'flex',
@@ -136,10 +136,9 @@ const closeButtonStyle = {
     fontSize: '24px',
 };
 
-//RESPONNSIVIDADE
 
 
-// Use mediaQueryStyle in your component or remove if not needed
+
 
 
 

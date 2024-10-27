@@ -5,13 +5,13 @@ const cardsData = [
         id: 1,
         title: 'Agendar um Horário',
         icon: <FaCalendarAlt size={24} color='#1d1d1d' />, // Ícone de agenda
-        link: 'https://chat.fillapp.me/?id=82ad5be0-f8b7-488d-847d-72a91c0756ed',
+        link: 'https://wa.me/5511977502407?text=Olá%20gostaria%20de%20agendar%20um%20horário',
     },
     {
         id: 2,
         title: 'Treinamento Design de Sobrancelhas',
         icon: <FaGraduationCap size={24} color='#1d1d1d' />, // Ícone de graduação
-        link: 'https://amandaferreirastudio.com.br/curso-design-de-sobrancelhas/',
+        link: 'https://drive.google.com/file/d/1MYH8-gOjAiSl150YqD2cFMpiNgVHZwDW/view?usp=sharing',
     },
     
 ];
